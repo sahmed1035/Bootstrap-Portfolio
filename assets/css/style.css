@@ -6,15 +6,32 @@ body {
     background: url("../images/asanoha-bg.png");
   }
   
-  * {
-    box-sizing: border-box;
+  .card-img {
+   width: 150px;
+    margin: 0 auto;
+   height: 150px;
+   
   }
   
-  /* general */
+#btn-success{
+  background-color: #4aaaa5;
+}
+
+
+#mycontainer{
+  margin: 5%;
+}
+
+.jumbotron{
+  width: 200px;
+  height: 300px;
+  
+ }
+
   
   .container {
     max-width: 960px;
-    margin: 0 auto;
+    margin-right: 5%;
    /* padding-top: 50px; */
     clear: both;
     
@@ -176,7 +193,6 @@ body {
     line-height: 30px;
     color: #ffffff;
     text-align: center;
-    /* background: #4aaaa5; */
     border-bottom: 0;
   }
   
