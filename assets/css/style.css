@@ -3,7 +3,8 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/asanoha-bg.png");
+    background: url("../images/bgNew.jpeg");
+    /* background-repeat: no-repeat; */
    
   }
   
@@ -20,7 +21,7 @@ body {
 
 
 #mycontainer{
-  margin: 5%;
+  background-color: transparent;
 }
 
 .jumbotron{
@@ -32,10 +33,9 @@ body {
   
   .container {
     max-width: 960px;
-    margin-right: 5%;
+    margin-right: 2%;
    /* padding-top: 50px; */
-    clear: both;
-    
+    clear: both;  
   }
   
   h1,
@@ -82,7 +82,7 @@ body {
     margin: 30px;
     overflow: auto;
     color: #ffffff;
-    background: #ffffff;
+    background: black;
     border-bottom: 2px solid #cccccc;
   }
   
@@ -106,7 +106,7 @@ body {
    padding: 10px;
     width: 100%;
     border-bottom: 1px solid #999;
-    
+   
   }
   
   nav a {
